@@ -20,32 +20,23 @@
     <div class="row p-3">
       <div class="col-4">
         <form id="city-form">
-          <label for="city-name">Search for a City:</label>
+          <label for="city-name">City Zip Code:</label>
           <input type="text" id="city-name" name="city" >
-          <button type="submmit">Search</button>
+          <button type="submit">Search</button>
         </form>
-        <div class="search-history pt-3 mt-3 border-top list-group">
-          <p class="">City History</p>
-          <p>City History</p>
-          <p>City History</p>
-          <p>City History</p>
-          <p>City History</p>
-        </div>
+        <div id="history-list" class="search-history pt-3 mt-3 border-top"></div>
       </div>
       <div class="col-8">
         <div id="current-conditions" class="row border">
-          <h2 id="current-city-title" class="fw-bold">City Placeholder + Date</h2>
-          <span id="temp" class="p-2">Temp: </span>
-          <span id="wind" class="p-2">Wind: </span>
-          <span id="humidity" class="p-2">Humidity:</span>
-          <span id="uv-index" class="p-2">UV Index:</span>
+          <h2 id="current-city-title" class="fw-bold"></h2>
+          <span id="c-temp" class="p-2"></span>
+          <span id="c-wind" class="p-2"></span>
+          <span id="c-humidity" class="p-2"></span>
+          <span id="c-uv-index" class="p-2"></span>
         </div>
         <div id="five-day-forecast" class="row">
           <h2 class="fw-bold">5-day Forecast:</h2>
-          <div id="five-day-container"class="col border">
-
-
-        </div>
+          <div id="five-day-container" class="row"></div>
       </div>
     </div>
   </div>
