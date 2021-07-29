@@ -112,7 +112,6 @@ var displayForecasts = function(forecasts) {
     dayDiv.appendChild(dayDivBody);
     fiveDayContainerEl.appendChild(dayDiv);
   }
-  console.log(forecasts[2].weather[0].icon)
 }
 
 
