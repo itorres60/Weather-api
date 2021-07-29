@@ -5,8 +5,56 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Weather-Api</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
-<body>
+
+
+<body class="">
   
+  <header class=" p-2 bg-primary text-white ">
+    <h1 class="fw-bolder d-flex justify-content-center">Weather Dashboard</h1>
+  </header>
+
+  <div class="">
+    <div class="row p-3">
+      <div class="col-4">
+        <form id="city-form">
+          <label for="city-name">Search for a City:</label>
+          <input type="text" id="city-name" name="city" >
+          <button type="submmit">Search</button>
+        </form>
+        <div class="search-history pt-3 mt-3 border-top list-group">
+          <p class="">City History</p>
+          <p>City History</p>
+          <p>City History</p>
+          <p>City History</p>
+          <p>City History</p>
+        </div>
+      </div>
+      <div class="col-8">
+        <div id="current-conditions" class="row border">
+          <h2 id="current-city-title" class="fw-bold">City Placeholder + Date</h2>
+          <span id="temp" class="p-2">Temp: </span>
+          <span id="wind" class="p-2">Wind: </span>
+          <span id="humidity" class="p-2">Humidity:</span>
+          <span id="uv-index" class="p-2">UV Index:</span>
+        </div>
+        <div id="five-day-forecast" class="row">
+          <h2 class="fw-bold">5-day Forecast:</h2>
+          <div id="five-day-container"class="col border">
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/assets/js/script.js"></script>
 </body>
+
+
 </html>
