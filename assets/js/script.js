@@ -96,7 +96,7 @@ var displayForecasts = function(forecasts) {
     dayDivBody.classList = "card-body";
 
     var dayDivIcon = document.createElement("img");
-    dayDivIcon.setAttribute("src", "/assets/images/" + forecasts[i].weather[0].icon + ".png");
+    dayDivIcon.setAttribute("src", "assets/images/" + forecasts[i].weather[0].icon + ".png");
     dayDivIcon.setAttribute("width", "50px")
     var dayDivTemp = document.createElement("p");
     dayDivTemp.textContent = "Temp: " + forecasts[i].temp.day + "°F";
