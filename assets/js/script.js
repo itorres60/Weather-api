@@ -32,7 +32,7 @@ var cityHistoryList = function (city) {
 // convert zip code to coordinates and send to getWeatherInfo
 var getCityCoordinates = function(city) {
   var corApiUrl = 
-  "http://api.openweathermap.org/geo/1.0/zip?zip=" + city + "&appid=69cc0b96ff0a7672acd0f2ad83fc81b4"
+  "https://api.openweathermap.org/geo/1.0/zip?zip=" + city + "&appid=69cc0b96ff0a7672acd0f2ad83fc81b4"
 
   fetch(corApiUrl).then(function(response) {
     if (response.ok) {
@@ -114,9 +114,6 @@ var displayForecasts = function(forecasts) {
   }
   console.log(forecasts[2].weather[0].icon)
 }
-// display historical weather on html
-
-
 
 
 
@@ -131,7 +128,6 @@ var citySubmitHandler = function(event){
     fiveDayContainerEl.textContent = "";
     cityInputEl.value = "";
   }
-
 }
 
 
