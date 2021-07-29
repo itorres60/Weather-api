@@ -19,3 +19,7 @@ THEN I am presented with a 5-day forecast that displays the date, an icon repres
 
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
+
+API Call = https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid=69cc0b96ff0a7672acd0f2ad83fc81b4
+
+Historical API call = https://api.openweathermap.org/data/2.5/onecall/timemachine?lat={lat}&lon={lon}&dt={time}&appid=69cc0b96ff0a7672acd0f2ad83fc81b4
