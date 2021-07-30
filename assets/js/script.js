@@ -114,7 +114,7 @@ var displayForecasts = function(forecasts) {
 
     var dayDivHeader = document.createElement("div");
     dayDivHeader.classList = "card-header fw-bold";
-    dayDivHeader.textContent = moment.unix(forecasts[i].dt).format("l");
+    dayDivHeader.textContent = moment.unix(forecasts[i].dt).format("ddd l");
     dayDiv.appendChild(dayDivHeader);
 
     var dayDivBody = document.createElement("div");
