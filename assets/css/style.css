@@ -1,0 +1,59 @@
+#current-conditions {
+  font-weight: bold;
+}
+#five-day-container {
+  display: flex;
+  margin-right: 10px;
+  justify-content: space-around;
+}
+#five-day-forecast {
+  margin: auto;
+}
+#five-day-h2 {
+  text-align: center;
+}
+img {
+  width: 200px;
+}
+@media only screen and (max-width: 988px) {
+#five-day-container {
+  display: block;
+}
+
+}
+@media only screen and (max-width: 600px) {
+  #m-container {
+    flex-direction: column;
+  }
+  #form-container {
+    width: 100%;
+  }
+  #weather-container {
+    width: 100%;
+  }
+  #current-conditions {
+    width: 100%;
+  }
+  #history-list {
+    max-height: 135px;
+    overflow: auto;
+  }
+  #current-conditions {
+    margin: auto;
+    text-align: center;
+  }
+  #days-container {
+    text-align: center;
+    padding: 0;
+  }
+  h2.fw-bold {
+    text-align: center;
+    margin-top: 10px;
+    background-color: lig;
+  }
+
+  button.btn.btn-info {
+    width: 100%;
+  }
+
+}
