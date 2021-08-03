@@ -1,29 +1,14 @@
 # Weather-api
+I have created an app that displays the weather of a location based on the users input
 
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
+Here is a live example of my home town weawther.
 
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
+![Weather Screenshot](/assets/images/SS1.png "Web result of Hometown weather")
 
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
+Here is the code for displaying content from the API
 
-WHEN I view the UV index
-THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
 
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
+![Weather Code Screenshot](/assets/images/SS2.png "Code example of Hometown weather")
 
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
-
-https://openweathermap.org/api/one-call-api
-
-Coordinates API Call= 
-http://api.openweathermap.org/geo/1.0/zip?zip={zipcode},{countrycode}&appid=69cc0b96ff0a7672acd0f2ad83fc81b4
-
-Weather API Call = 
-https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid=69cc0b96ff0a7672acd0f2ad83fc81b4
+View resulting webpage here: 
+[Weather-API Landing Page](https://itorres60.github.io/Weather-api/ "Weather-API")
