@@ -173,6 +173,15 @@ var citySubmitHandler = function(event){
 // LISTENERS //
 
 
+var getzip = function() {
+	var apiUrl = "https://www.zipcodeapi.com/rest/5dQtYdbWNxBdf3pvKfAW0sddqYFsnpdEGVlVDO4zrTEmp9qgWAVlnr1GID4TBtnj/city-zips.json/austin/tx"
+
+	fetch(apiUrl).then(function(results) {
+		console.log(results);
+	})
+}
+getzip();
+
 
 
 
